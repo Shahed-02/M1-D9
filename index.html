@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<hmtl> 
+    <head>
+        <title> JavaScript Bingo</title>
+        <link rel= "stylesheet" href = "homeowrk.css">
+    </head>
+    <body>
+        <center> 
+            <h1>JS Bingo Card Game</h1>
+        </center>
+    
+        <center> 
+            <p class= "pdrawBall" id= "pdrawBall"></p>
+            How many Bingo cads/s: <input type = "text" id = "txtInput" placeholder = "Enter the number of cards">
+            <button onclick="draw()">Draw Card</button>
+            <button id= "btnDrawButton" onclick= "drawBall()"> Draw Ball</button>
+            <button onclick="clearCards()" >Clear</button>
+        </center>
+
+        <center> 
+            <p id="pCount"> No. of cards/s:0</p>
+        </center> <br>
+        <center> 
+            <div id="divBingoCard"</div>
+        </center>
+        <script src = "../script/divBingoCard.js"></script>
+        <script src = "../script/BallDraw.js"></script>
+        <script src = "../script/script.js"></script>
+    </body>
+</hmtl>
